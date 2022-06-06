@@ -38,7 +38,8 @@ html {
 .main-container {
     display: flex;
     flex-wrap: wrap;
-  }
+    margin: 0 0 0 8%
+    }
   
 .section {
     width: 50%
@@ -85,12 +86,36 @@ html {
 .header {
   background-color:azure;
 }
-.footer {
-  background-color:#2244a0;
-  color:azure;
-}
 .footer-link {
   text-decoration: none;
-    color:azure;
+    color:#1a2647;
     transition: color 0.5s;
+}
+.footer{
+  background:azure;
+  color: #111;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+.footer-div {
+  margin: 10px
+}
+#profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
