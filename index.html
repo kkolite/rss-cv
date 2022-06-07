@@ -1,1 +1,109 @@
-Hello world!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV RS-School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section id="profile">
+                <img src="assets/ava.jpg" alt="avatar" class="profile_img">
+                <h1 class="name-title">Yahor Litavar</h1>
+                <p><i>RS-School student</i></p>
+            </section>
+        </div>
+        <div class="main-container">
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="contacts">
+                    <li class="contacts-location">Minsk, Belarus</li>
+                    <li class="contacts-email"><a href="mailto:litavoregor@mail.ru" class="link">litavoregor@mail.ru</a></li>
+                    <li class="contacts-github"><a href="https://github.com/kkolite" class="link">kkolite</a></li>
+                    <li class="contacts-discord">kkolite #5735</li>
+                    <li class="contacts-tel"><a href="tel:+375336186140" class="link">+375336186140</a></li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>Hello, my name is Egor.</p>
+                <p>I'm 22. BSAA (Air Traffic Controller) graduate.</p>
+                <p>Due to the current situation in the region, I am forced to change the field of activity. I decided to become a front-end developer.</p>
+                <p>I am also a hockey scout (I have been working in the field of hockey since 2016)</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills">
+                    <li>Web-development: HTML, CSS, JavaScript</li>
+                    <li>Version control: Git, GitHub</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <div class="js-code"><code>
+                    function solution(string) { <br>
+                        let result = '' <br>
+                      for (i = 0; i &lt; string.length; i++) { <br>
+                          if (string[i] === string[i].toUpperCase()) { <br>
+                            result = result + ' ' + string[i] <br>
+                          } <br>
+                          else {result += string[i]} <br>
+                        } <br>
+                      return result <br>
+                    }
+                </code></div>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul>
+                    <li>CodeBasics - <a href="https://ru.code-basics.com/languages/html" class="link">HTML</a>, <a href="https://ru.code-basics.com/languages/css" class="link">CSS</a>, <a href="https://ru.code-basics.com/languages/javascript" class="link">JavaScript</a></li>
+                    <li>RS-School - <a href="https://rs.school/js-stage0/" class="link">JavaScript/Front-end. Stage 0</a> </li>
+                    <li>VK Team - <a href="https://stepik.org/cert/1453778" class="link">Software development</a></li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <p>Work in progress, but you can visit my <a href="https://github.com/kkolite/rs-school" class="link">GH RS-School repository</a>.</p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Belarussian State Aviation Academy (Air traffic controller)</p>
+            </section>
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p>B2</p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-p">There should be some serious info in this block, but it's not here</p>
+            <div class="footer-div">© 2022 <a href="https://github.com/kkolite" class="footer-link">kkolite</a></div>
+            <div class="footer-div"><a href="https://rs.school/js-stage0/"><img src="assets/logo-rsschool3.png" alt="RS-School logo" width="125" height="45"></a></div>
+        </div>
+    </footer>
+</body>
+</html>
